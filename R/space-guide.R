@@ -19,9 +19,10 @@ moar_parentheses <- function (pd_flat)
 #' code <- "say(hi)"
 #' styler::style_text(code, style = spaceout::spaceout_style)
 spaceout_style <- function() {
-  style <- styler::tidyverse_style()
+  style <- styler::tidyverse_style(indent_by = 4)
   style$space <- c(style$space, maor = moar_parentheses)
   style$style_guide_version <- "1.0.0"
+
   style
 }
 
