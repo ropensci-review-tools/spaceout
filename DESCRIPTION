@@ -1,0 +1,16 @@
+Package: spaceout
+Title: Holds A More Spacious Styleguide
+Version: 0.0.0.9000
+Authors@R: 
+    person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = c("cre", "aut"),
+           comment = c(ORCID = "0000-0002-2815-0399"))
+Description: Adds a space before parentheses & co, on top of more common tidyverse-style guide conventions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    styler
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
