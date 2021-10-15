@@ -21,6 +21,7 @@ moar_parentheses <- function (pd_flat)
 spaceout_style <- function() {
   style <- styler::tidyverse_style()
   style$space <- c(style$space, maor = moar_parentheses)
+  style$line_break$style_line_break_around_curly <- NULL
   style$style_guide_version <- "1.0.0"
   style
 }
