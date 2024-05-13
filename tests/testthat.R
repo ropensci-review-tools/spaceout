@@ -1,4 +1,4 @@
-library(testthat)
-library(spaceout)
+library (testthat)
+library (spaceout)
 
-test_check("spaceout")
+test_check ("spaceout")
