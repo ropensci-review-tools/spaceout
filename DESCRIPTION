@@ -1,6 +1,6 @@
 Package: spaceout
 Title: Holds A More Spacious Styleguide
-Version: 0.1.0.001
+Version: 0.1.0.002
 Authors@R: 
     person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = c("cre", "aut"),
            comment = c(ORCID = "0000-0002-2815-0399"))

@@ -1,0 +1,67 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "spaceout",
+  "description": "Adds a space before parentheses & co, on top of more common tidyverse-style guide conventions.",
+  "name": "spaceout: Holds A More Spacious Styleguide",
+  "codeRepository": "https://github.com/ropensci-review-tools/spaceout",
+  "issueTracker": "https://github.com/ropensci-review-tools/spaceout/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.1.0.002",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Maëlle",
+      "familyName": "Salmon",
+      "email": "msmaellesalmon@gmail.com",
+      "@id": "https://orcid.org/0000-0002-2815-0399"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Maëlle",
+      "familyName": "Salmon",
+      "email": "msmaellesalmon@gmail.com",
+      "@id": "https://orcid.org/0000-0002-2815-0399"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": {
+    "1": {
+      "@type": "SoftwareApplication",
+      "identifier": "styler",
+      "name": "styler",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=styler"
+    },
+    "SystemRequirements": {}
+  },
+  "fileSize": "0KB",
+  "readme": "https://github.com/ropensci-review-tools/spaceout/blob/main/README.md"
+}

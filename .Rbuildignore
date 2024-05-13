@@ -2,4 +2,5 @@
 ^README\.Rmd$
 ^\.Rproj\.user$
 ^\.pre-commit-config\.yaml$
+^codemeta\.json$
 ^spaceout\.Rproj$
