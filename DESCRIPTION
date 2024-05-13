@@ -1,6 +1,6 @@
 Package: spaceout
 Title: Holds A More Spacious Styleguide
-Version: 0.1.0
+Version: 0.1.0.001
 Authors@R: 
     person("Maëlle", "Salmon", , "msmaellesalmon@gmail.com", role = c("cre", "aut"),
            comment = c(ORCID = "0000-0002-2815-0399"))
@@ -8,7 +8,7 @@ Description: Adds a space before parentheses & co, on top of more common tidyver
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.1
 Imports: 
     styler
 Suggests: 
