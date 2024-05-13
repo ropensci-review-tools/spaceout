@@ -1,7 +1,7 @@
 # inspired by https://styler.r-lib.org/articles/customizing_styler.html
-# approach from https://lorenzwalthert.netlify.app/post/customizing-styler-the-quick-way/
-moar_parentheses <- function (pd_flat)
-{
+# approach from
+# https://lorenzwalthert.netlify.app/post/customizing-styler-the-quick-way/
+moar_parentheses <- function (pd_flat) {
   paren_after <- pd_flat$token %in% c("'('", "'['", "LBB")
   if (!any(paren_after)) {
     return(pd_flat)
@@ -26,4 +26,3 @@ spaceout_style <- function() {
 
   style
 }
-
