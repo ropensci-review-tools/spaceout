@@ -24,7 +24,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 code <- "say('hi'); list[[a[2]]]"
-styler::style_text(code, style = spaceout::spaceout_style)
+styler::style_text (code, style = spaceout::spaceout_style)
 #> say ("hi")
 #> list [[a [2]]]
 ```
