@@ -1,4 +1,5 @@
-^spaceout\.Rproj$
-^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
+^\.Rproj\.user$
+^\.pre-commit-config\.yaml$
+^spaceout\.Rproj$
