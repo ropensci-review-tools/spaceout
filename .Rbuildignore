@@ -1,6 +1,11 @@
 ^LICENSE\.md$
 ^README\.Rmd$
 ^\.Rproj\.user$
+^\.github$
+^\.hooks$
 ^\.pre-commit-config\.yaml$
+^aaa.Rmd$
 ^codemeta\.json$
+^inst/WORDLIST$
+^makefile$
 ^spaceout\.Rproj$
