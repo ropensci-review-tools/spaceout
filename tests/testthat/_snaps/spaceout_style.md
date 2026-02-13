@@ -5,9 +5,8 @@
 
 # spaceout_style does not mess up lines
 
-    
     f <- function () {
     
-      return (1)
+        return (1)
     }
 
